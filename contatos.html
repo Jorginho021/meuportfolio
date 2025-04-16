@@ -1,138 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatos</title>
-    <style>
-        body {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #010530e1;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
 
-            background-color: #333;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #006e72e1;
-            color: #000000;
-            padding: 20px;
-            text-align: center;
-            margin: 20px;
-        }
-        main {
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #fffffffb;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-       img {width: 5% }
+    h1 {
+      font-size: 3rem;
+      color: #ffffff;
+    }
 
-       footer {
-    background-color: #fcfcfc00;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-        }
+    .contato {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+    }
 
-    </style>
+    .contato img {
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+    }
 
+    .contato a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 1.2rem;
+    }
 
+    .contato a:hover {
+      color: #ffffff;
+    }
+
+    a.btn-voltar {
+      margin-top: 30px;
+      background-color: #202da1e1;
+      padding: 10px 20px;
+      border-radius: 8px;
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a.btn-voltar:hover {
+      background-color: #202da1e1;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #bbbbbb;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Contatos</h1>
-    </header>
+  <h1>Entre em Contato</h1>
 
-    <main>
-        <section>
-            <h2>contato via WhatsApp</h2>
+  <div class="contato">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    <a href="https://wa.me/555197881983" target="_blank">WhatsApp</a>
+  </div>
 
-        
-            <p>+55 51 9788-1983</p>
-           
-        </section>
+  <div class="contato">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+    <a href="https://instagram.com/https://www.instagram.com/j.cardoso_021?utm_source=qr&igsh=MW45cnZpdXJkbGtlYg==" target="_blank">Instagram</a>
+  </div>
 
-        <section>
-            <head> 
-                <body>   
-            <a href="https://github.com/Jorginho021" class= "image-link">
-            <img src="./github-logo.png" style="border-radius: 50%;">
-            </head>
-            </body>
-            <a href="https://www.instagram.com/j.cardoso_021/?utm_source=qr&igsh=MW45cnZpdXJkbGtlYg%3D%3Dd" class="image-link">
-              <img src="./i489927.jpeg"  style="border-radius: 50%;">
-              
-            <footer>   <p><b>&copy; 2024 Meu Site. Todos os direitos reservados.</b></p></footer>
+  <div class="contato">
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+ <a href="https://github.com/Jorginho021/meuportfolio/blob/main/styles.css" target="_blank">GitHub</a>
+</div>
 
-             
-        </section>
+<a class="btn-voltar" href="index.html">Voltar</a>
 
-        <section>
-            <style>body {
-                font-family: 'Roboto', sans-serif;
-                margin: 0;
-                padding: 0;
-            }
-            
-            header {
-                background-color: #006e72e1;
-                color: rgb(255, 255, 255);
-                padding: 10px 0;
-                text-align: center;
-                margin: 17px;
-            }
-            
-            nav ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: #030000;
-                text-align: center;
-            }
-            
-            nav ul li {
-                display: inline;
-            }
-            
-            nav ul li a {
-                display: inline-block;
-                color: rgb(247, 247, 247);
-                padding: 14px 20px;
-                text-decoration: none;
-            }
-            
-            nav ul li a:hover {
-                background-color: #ffffff;
-            }
-            
-            main {
-                padding: 20px;
-            }
-            
-            section {
-                margin-bottom: 20px;
-            }
-            
-            aside {
-                background-color: #ffffff;
-                padding: 20px;
-                margin: 20px 0;
-            }
-            
-            footer {
-                background-color: #29262600;
-                color: rgb(255, 255, 255);
-                text-align: center;
-                padding: 10px 0;
-                position: fixed;
-                width: 100%;
-                bottom: 0;
-            }</style>
+  <footer>© 2024 Meu Site. Todos os direitos reservados.</footer>
+</body>
+</html>
