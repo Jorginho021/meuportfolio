@@ -4,89 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projetos - Meu Portfólio</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #010530e1;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 40px 20px;
-    }
-
-    header {
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 3rem;
-      color: #ffffff;
-    }
-
-    h2 {
-      margin-top: 40px;
-      font-size: 2rem;
-      color: #ffffff;
-    }
-
-    p {
-      max-width: 900px;
-      text-align: center;
-      font-size: 1.2rem;
-      line-height: 1.6;
-      color: #dddddd;
-    }
-
-    .btn-voltar {
-      margin-top: 30px;
-      padding: 12px 24px;
-      background-color: #202da1e1;
-      color: #000000ce;
-      border: none;
-      border-radius: 8px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      text-decoration: none;
-    }
-
-    .btn-voltar:hover {
-      background-color: #ffffff;
-    }
-
-    footer {
-      margin-top: 50px;
-      font-size: 0.9rem;
-      color: #bbbbbb;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Meus Projetos</h1>
-    <p>
-      Aqui estão alguns dos projetos e experiências que adquiri ao longo do meu aprendizado em programação.
-    </p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section>
-    <h2>Jogo da Adivinhação em Java</h2>
-    <p>
-      Desenvolvi um jogo da adivinhação utilizando a linguagem Java, onde o usuário tenta adivinhar um número aleatório gerado pelo sistema. Para esse projeto, utilizei diversos recursos como <strong>JOptionPane</strong> para interação gráfica, estruturas de repetição como <strong>while</strong> e <strong>do-while</strong>, além de controle de fluxo com <strong>if</strong>, <strong>if-else</strong> e <strong>switch-case</strong>. Também trabalhei com <strong>vetores</strong> e criei <strong>métodos</strong> para modularizar e organizar melhor o código.
-    </p>
-  </section>
+  <main>
+    <section class="box">
+      <h2>🎮 Jogo da Adivinhação em Java</h2>
+      <p>
+        Desenvolvi um jogo onde o usuário precisa adivinhar um número aleatório gerado pelo sistema. O projeto utilizou <strong>JOptionPane</strong> para interface gráfica, estruturas de repetição e controle de fluxo como <code>if</code>, <code>switch-case</code> e <code>do-while</code>. Também trabalhei com vetores e métodos para organizar melhor o código.
+      </p>
+    </section>
 
-  <section>
-    <h2> Projeto de Sistema Escolar Online</h2>
-    <p>
-      Participei de um projeto em grupo onde colaboramos na criação do código-fonte de um sistema de ensino online para uma escola. Esse trabalho foi realizado por todos os alunos do curso da tarde e envolveu trabalho em equipe, divisão de tarefas e integração de várias partes do código. Contribuí ativamente na construção de funcionalidades do sistema, aplicando meus conhecimentos em programação e lógica.
-    </p>
-  </section>
+    <section class="box">
+      <h2>🏫 Sistema Escolar Online</h2>
+      <p>
+        Projeto em grupo onde criamos um sistema de ensino online para uma escola. Atuamos em equipe e dividimos tarefas. Contribuí com funcionalidades importantes e ajudei na organização do código. Essa experiência fortaleceu minha colaboração e entendimento de projetos reais.
+      </p>
+    </section>
 
-  <a class="btn-voltar" href="index.html">Voltar</a>
+    <a class="btn-voltar" href="index.html">Voltar</a>
+  </main>
 
   <footer>© 2025 Meu Site. Todos os direitos reservados.</footer>
 </body>
