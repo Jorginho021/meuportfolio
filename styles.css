@@ -1,52 +1,100 @@
-body {
 
-  
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #010530e1;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
+
 
 header {
-    background-color: #202da1e1;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+  background-color: #202da1e1;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
 
 nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
+
+nav ul li a:hover {
+  color: #d0d0ff;
+  text-decoration: underline;
+}
+
 
 main {
-    padding: 20px;
+  max-width: 900px;
+  width: 90%;
+  text-align: center;
+  padding: 40px 20px;
 }
+
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #dddddd;
+}
+
+
+a.btn-voltar,
+.btn-voltar {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #202da1e1;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a.btn-voltar:hover,
+.btn-voltar:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 
 footer {
-    background-color: #ffffff00;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.box {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 90px;
+  margin-top: auto;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #bbbbbb;
 }
